@@ -1,0 +1,298 @@
+/* tous les lien*/
+*{
+    color: rgb(96, 95, 95);
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/*top bar*/
+.header,
+.header3,
+.header2,
+.header4{
+    background-color: transparent;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 3rem;
+ 
+    
+}
+/*body de chaque page html*/
+.index,
+.experiences,
+.projet,
+.passion{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*page1*/
+/*bouton dans index.html*/
+.btn-ac,
+.btn-pr{
+    font-size: 1.3rem;
+    margin-top: 10px;
+    
+      
+}
+/*conteneur index nom et lien*/
+.contenu{
+    padding-top: 2%;
+    padding-left: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-bottom: 10%;
+    
+}
+article{
+    margin: 0;
+    padding: 0;
+    
+}
+.title_index{
+    argin-top: 0;
+    font-size: 1.5rem;
+    text-align:justify;
+}
+/*nom et poste*/
+.nomp,
+.poste{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: inline-block ;
+    transform-origin: left;
+    transform: scale(0);
+    animation: animation1 1s  ease forwards;
+}
+.nomp{
+    font-size: 2rem;
+    animation-delay: 2s;
+    color:black;
+    margin: 0;
+    margin: 0;
+}
+/*poste*/
+.poste{
+    margin: 0;
+    padding: 0;
+    font-size: 1.6rem;
+    text-align: left;
+    animation-delay: 3s;
+    color:black;
+}
+.nomp::before,
+.poste::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:rgb(70, 69, 69);
+    opacity: 30%;
+    width: 100%;
+    height: 100%;
+    transform-origin: right;
+    animation: animation2 1s  ease forwards;
+    animation-delay: 3s;
+    }
+.poste ::before{
+    animation-delay: 4s;
+}
+@keyframes animation2 {
+    0%{
+        transform: scaleX(1);
+    }
+    100%{
+        transform: scaleX(0);
+    }
+    
+}
+@keyframes animation1 {
+    0%{
+        transform: scaleX(0);
+    }
+    100%{
+        transform: scaleX(1);
+    }
+    
+}
+/*fin nom et poste*/
+.imageslova{
+    float: right;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+.imgl{
+    text-align: center;
+}
+.imglova{
+height: 70%;
+width: 70%;
+position: relative;
+padding-right: 3rem;
+}
+.fb{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin: 3px;
+}
+.gmail{
+    height: 1.2rem;
+    width: 1.5rem;
+    margin: 3px;
+}
+.what{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin: 3px;
+}
+.mail{
+    margin: 31px;
+}
+/*page2*/
+/*top bouton*/
+
+.car{
+    width: 70%;
+    height: 20%;
+    float: center;
+    text-align: center; 
+}
+/*conteneeur text*/
+.explication{
+    width: 100%;
+    float: center;
+    margin-top: 5rem;
+    
+}
+/*part 1 explication*/
+.description{
+    
+    font-size: xx-large;
+    margin: 3%;
+    text-align: center;
+}
+/*part 2 explication*/
+.conception{
+    margin-top: 3rem;
+    font-size: 2rem;
+    text-align: justify;
+}
+/*part 3 explication*/
+.realisation{
+    margin-top: 3rem;
+    font-size: 2rem;
+    text-align: center;
+}
+/*page3 experience.html*/
+
+.btn-ex{
+    font-size: 1.3rem;
+    margin-top: 10px;
+       
+}
+.droit,
+.entrepreneur,
+.benevole {
+    float: left;
+    
+}
+ 
+
+.img1,
+.img2,
+.img3{
+    width: 100%;
+    
+}
+.titre-exp{
+    text-decoration-line: underline;
+    text-align: center;
+}
+
+
+/*pages 4*/
+.btn-pa{
+    font-size: 1.3rem;
+    margin-top: 10px;
+    
+    
+    
+    
+}
+.class1,
+.class2
+{
+    
+    margin-top: 2%;
+    height: 35%;
+    width:  100%;
+    padding-top: 2%;
+  }
+  .class3{
+    margin-left: 2%;
+    margin-top: 2%;
+    height: 35%;
+    width:  96%;
+    padding-top: 2%;
+  }
+
+.passions1,
+.passions3,
+.passions2{
+        
+        margin-top: 4%;
+        width: 50%;
+        float: left;
+        height: 100%;
+      
+}
+.passions{
+    text-align: center;
+}
+
+.photopassion{
+    text-align: right;
+    height: 100%;
+    width: 90%;
+
+}
+.photopassion1{
+    text-align: center;
+    height: 20%;
+    width: 25%;
+}
+.photopassion3{
+    height: 100%;
+    width: 90%;
+    float: right;
+}
+
+.titrep{
+    text-align: center;
+    font-size: 200%;
+
+}
+.explicationp{
+text-align: center;
+font-size: 100%;
+}
+
+.citation{
+    text-align: center;
+    font-size: 100%;
+}
+.auteur{
+    text-align: center;
+    font-style: italic;
+}
+.explicationp-r{
+    margin-bottom: 4%;
+    text-align: center;
+    font-size: 2rem;
+}
